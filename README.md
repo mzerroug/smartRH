@@ -6,7 +6,7 @@ Le projet Smart RH est une application de gestion des ressources humaines utilis
 
 1. Cloner le dépôt :
    
-    git clone https://github.com/votre-utilisateur/votre-projet.git
+    git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/mzerroug/smartRH.git)
     cd votre-projet
 
 2. Créer et activer l'environnement virtuel :
