@@ -1,48 +1,59 @@
+# SmartRH: Smart Human Resources Management System
 
-# SmartRH
-Le projet Smart RH est une application de gestion des ressources humaines utilisant l'intelligence artificielle pour simplifier et améliorer le processus de recrutement. Cette plateforme offre aux recruteurs des outils avancés pour publier des offres d'emploi, évaluer les candidatures, planifier des entretiens et suivre le processus de recrutement de manière efficace. De même, les candidats bénéficient d'une expérience utilisateur optimisée, leur permettant de rechercher des emplois, postuler en ligne, suivre l'état de leurs candidatures et communiquer avec les recruteurs. Grâce à son interface conviviale et à ses fonctionnalités intelligentes, Smart RH vise à simplifier et à rationaliser les processus de recrutement, offrant ainsi des avantages tant aux recruteurs qu'aux candidats.
+SmartRH is a comprehensive Human Resources management system designed to automate and streamline HR processes. It provides an intuitive interface for managing employee information, tracking attendance, handling payroll, and more.
 
-# Installation
+## Features ✨
+- **Employee Management**: Add, update, and manage employee data.
+- **Attendance Tracking**: Track employee attendance and working hours.
+- **Payroll**: Automatically calculate and generate payroll for employees.
+- **Leave Management**: Track and approve employee leave requests.
+- **Reports**: Generate various HR-related reports such as attendance and salary reports.
+- **User Roles**: Different access levels for admins, HR managers, and employees.
 
-1. Cloner le dépôt :
-   
-    git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/mzerroug/smartRH.git)
-    cd votre-projet
+## Tech Stack 🛠️
+- **Backend**: (e.g., Java, Node.js, Python)
+- **Frontend**: (e.g., React, Angular, HTML, CSS)
+- **Database**: (e.g., MySQL, PostgreSQL)
+- **Authentication**: (e.g., JWT, OAuth)
+- **API**: RESTful API for integration.
 
-2. Créer et activer l'environnement virtuel :
+## Getting Started 🚀
 
-    python -m venv VirtualEnv
-    # Sur Windows
-    VirtualEnv\Scripts\activate
-   
+### Prerequisites
 
-3. Installer les dépendances :
+- **Java Development Kit (JDK)** version 8 or higher (if backend is Java-based).
+- **Node.js** and **npm** (if frontend is built with JavaScript frameworks like React or Angular).
+- **MySQL** or another relational database for storing employee data.
 
-    pip install -r requirements.txt
+### Installation
 
-## Configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mzerroug/smartRH.git
+   ```
 
-1. Google Client ID :
+2. Navigate to the project directory:
+   ```bash
+   cd smartRH
+   ```
 
-    Remplacez `GOOGLE_CLIENT_ID` dans `app.py` par votre identifiant client Google.
+3. Install dependencies for the backend (example for Node.js):
+   ```bash
+   npm install
+   ```
 
-2. Client Secret JSON :
+4. Set up the database by configuring the connection details in the environment configuration files.
 
-    Ajoutez le fichier `client_secret.json` dans le répertoire racine du projet.
+5. Run the project:
+   ```bash
+   npm start
+   ```
 
-3. URI MongoDB :
+### Running the Application
 
-    Remplacez `MONGO_URI` dans `app.py` par l'URI de votre base de données MongoDB.
+- After setting up, open the application in your browser at `http://localhost:3000` (or the relevant URL based on the setup).
 
-## Utilisation
+## License 📄
 
-1. Lancer l'application :
+This project is licensed under the **MIT License**.
 
-    flask run
-
-2. Accéder à l'application :
-
-    Ouvrez un navigateur web et allez à l'adresse `http://localhost:5000`.
-
-#  Check out this video for overall guide:
-https://youtu.be/CphVOnBUkg4
